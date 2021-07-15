@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.imgUp {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact {
+  font-size: 50px;
+}
+
+.touch {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4179E9;
+  color: white;
+  padding: 12px 20px;
+  border: #4169E1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  transition: all 0.3s ease-out;
+  background: lightblue;
+  color: blue;
+}
+
+.container {
+  margin: 50px 100px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.responce, .click{
+  text-align: center;
+  align-items: center;
+  color: #4169E1;
+}
+
+.click{
+  color: red;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.con{
+  align-items: center;
+  text-align: center;
+}
+
+.res{
+  margin-bottom: 10px;
+  color: #4169E1;
+}
+
+.resp{
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 507px){
+  .res{
+    font-size: 20px;
+  }
+
+  .resp{
+    font-size: 10px;
+  }
+}
